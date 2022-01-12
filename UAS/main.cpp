@@ -68,6 +68,7 @@ int main() {
                         cin >> uang;
                         kembali= uang - total;
                         cout << "Uang Kembalian \t\t\t: Rp. " << kembali << endl;
+                        footer();
                     }
                 } else {
                     system("CLS");
@@ -110,6 +111,7 @@ int main() {
                         cout << "Masukan uang anda \t\t: Rp. ";
                         cin >> uang;
                         cout << "Uang Kembalian \t\t\t: Rp. " << kembali << endl;
+                        footer();
                     }
                 } else {
                     system("CLS");
@@ -152,6 +154,7 @@ int main() {
                         cout << "Masukan uang anda \t\t: Rp. ";
                         cin >> uang;
                         cout << "Uang Kembalian \t\t\t: Rp. " << kembali << endl;
+                        footer();
                     }
                 } else {
                     system("CLS");
